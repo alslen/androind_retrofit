@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_margin="10dp"
+            android:text="이름" />
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_margin="10dp"
+            android:text="나이" />
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_margin="10dp"
+            android:text="전화번호" />
+        <TextView
+            android:id="@+id/tvAddr"
+            android:layout_margin="10dp"
+            android:text="주소" />
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_margin="10dp"
+            android:text="이메일" />
+    </TableRow>
+
+</TableLayout>

@@ -58,7 +58,7 @@ public class PhoneAdapter extends RecyclerView.Adapter<PhoneAdapter.MyViewHolder
     // delete
     public void removeItem(int position){
         phoneList.remove(position);
-        notifyDataSetChanged();
+        notifyDataSetChanged();  // 새로고침
     }
 
 

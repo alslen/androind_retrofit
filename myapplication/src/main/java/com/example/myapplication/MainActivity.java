@@ -85,8 +85,8 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.d("insert", "onClick: 등록 클릭시 값 확인"+phoneDto);
 
-                PhoneService phoneService = Retrofit2Client.getInstance().getPhoneService();
-                Call<Phone> call = phoneService.save(phoneDto);
+                PhoneService phoneService = Retrofit2Client.getInstance().getPhoneService();  // 객체 생성
+                Call<Phone> call = phoneService.save(phoneDto);  // 연결
 
                 call.enqueue(new Callback<Phone>() {
                     @Override

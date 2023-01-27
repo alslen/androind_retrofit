@@ -15,3 +15,6 @@ dependencyResolutionManagement {
 rootProject.name = "project_retrofit"
 include ':app'
 include ':myapplication'
+include ':app_recyclerview'
+include ':app_person'
+include ':app_member'
